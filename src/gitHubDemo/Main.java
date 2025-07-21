@@ -5,8 +5,10 @@ public class Main {
 		System.out.println("Hello world");
 
 		Student.Grade();
+
 		Student.Attendance();
 		System.out.println("New line added by vikram");
+		System.out.println("New line added by jaanu");
 
 	}
 
@@ -14,9 +16,8 @@ public class Main {
 		public static void Grade() {
 			System.out.println("Grade is 'D'");
 		}
-		
 		public static void Attendance() {
-			System.out.println("Your attendance percentage is: 82%");
+			System.out.println("percentage is 88");
 		}
 	}
 }
